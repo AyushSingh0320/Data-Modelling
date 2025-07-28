@@ -1,6 +1,6 @@
 import mongoose from "mongoose";    
 
-const orderschema = mongoose.schema({
+const orderschema = new mongoose.schema({
     orderId : {
         type : Number,
         required : true ,
